@@ -1,0 +1,14 @@
+# 构建产物与 IDE 本地配置
+/build/
+/out/
+/.settings/
+*.class
+*.log
+
+# 数据库连接信息（含口令），只保留 db.properties.example
+db.properties
+**/db.properties
+
+# 用户上传的文件
+src/main/webapp/fileUpload/*
+!src/main/webapp/fileUpload/.gitkeep

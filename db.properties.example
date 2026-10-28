@@ -1,0 +1,7 @@
+# 复制本文件为 db.properties（放在项目根目录或 src/main/webapp/WEB-INF/ 下）
+# 然后填入你本机的数据库连接信息。db.properties 已被 .gitignore 排除，不会被提交。
+
+db.driver=com.mysql.cj.jdbc.Driver
+db.url=jdbc:mysql://localhost:3306/pet_db?useSSL=false&serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8
+db.username=root
+db.password=YOUR_DB_PASSWORD
